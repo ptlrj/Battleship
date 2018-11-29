@@ -6,7 +6,7 @@ public class bsGameFinal
 {
    public static void main(String[] args)
    {
-         System.out.println("Let's play : BATTEL SHIP ");
+         System.out.println("Let's play Battleship! ");
          game();         
    }
    public static void game()
@@ -18,11 +18,11 @@ public class bsGameFinal
             player();
          }catch(InputMismatchException e)
             {
-                  System.out.println("Please enter a valid input");
+                  System.out.println("Please enter a valid input:");
                   game();
             }catch(NumberFormatException e)
              {
-                  System.out.println("Please enter a valid input");
+                  System.out.println("Please enter a valid input:");
                   game();
              }
    }
